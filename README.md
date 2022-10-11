@@ -65,6 +65,6 @@ By default Mailcannon uses environmental variables from `.env` file:
   / linear ramp-up period, duration)
 - Include visualisation.
 
-## Author
+## Author 👷
 
 If You have better stats, drop me a line at: rojberr@outlook.com
