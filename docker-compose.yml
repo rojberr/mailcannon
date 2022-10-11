@@ -3,6 +3,12 @@ services:
 
   mailcannon:
     build: .
+    environment:
+      - RECIPIENT_IP=${RECIPIENT_IP}
+      - RECIPIENT_PORT=${RECIPIENT_PORT}
+      - EMAIL_SUBJECT=${EMAIL_SUBJECT}
+      - RECIPIENT_MAIL=${RECIPIENT_MAIL}
+      - SENDER_MAIL=${SENDER_MAIL}
     deploy:
       mode: replicated
       replicas: ${NUMBER_OF_CONTAINERS}
