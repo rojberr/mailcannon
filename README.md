@@ -15,6 +15,7 @@ Spawn an army of containers, and scale it up. You can easily send >36,000 emails
     ```bash
     docker-compose up -d
     ```
+   
 3) To count the total number of mails you can install and use mail smtp-sink: 
     ```bash
    sudo smtp-sink -u root -c 127.0.0.1:2555 255

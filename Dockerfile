@@ -4,6 +4,9 @@ LABEL author="rojberr"
 LABEL build_date="11.10.2022"
 
 ENV SWAKS_VERSION=20201014.0
+ENV HTTP_PROXY ''
+ENV HTTPS_PROXY ''
+ENV NO_PROXY 'localhost'
 
 #Install Swaks
 RUN set -eux; \
