@@ -3,7 +3,7 @@
 Send enormous amount of mails using swaks SMTP container. 
 Spawn an army of containers, and scale it up. You can easily send >25,000 emails per hour.
 
-![Google banned 3rd-party smtp use](mail-cannon-thumb.jpg)
+![Google banned 3rd-party smtp use](img/mail-cannon-thumb.jpg)
 
 ## Usage 💡
 
