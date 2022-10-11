@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+
+  mailcannon:
+    build: .
+    deploy:
+      mode: replicated
+      replicas: ${NUMBER_OF_CONTAINERS}
