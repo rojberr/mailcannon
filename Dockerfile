@@ -21,3 +21,9 @@ RUN set -eux; \
     apk del make; \
     mv /swaks /usr/bin
 
+# Copy script
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY send-emails-loop.sh /usr/src/app/
+
+CMD [ "sh", "./send-emails-loop.sh" ]
