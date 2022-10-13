@@ -28,6 +28,6 @@ RUN set -eux; \
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY send-emails-loop.sh /usr/src/app/
-COPY attachment.txt /usr/src/app/
+COPY email-attachments/ /usr/src/app/
 
 CMD [ "sh", "./send-emails-loop.sh" ]

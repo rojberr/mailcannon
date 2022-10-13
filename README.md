@@ -7,7 +7,7 @@ Spawn an army of containers, and scale it up. You can easily send >36,000 emails
 
 Mailcannon is a SMTP stress testing tool. It sends multiple emails repeatedly over all connections.
 
-![Google banned 3rd-party smtp use](img/mail-cannon-thumb.jpg)
+![Mail cannon picture](img/mail-cannon-thumb.jpg)
 
 ## Usage 💡
 
@@ -15,14 +15,16 @@ Mailcannon is a SMTP stress testing tool. It sends multiple emails repeatedly ov
 
 2) Change the values in `.env` file, and use your container #, desired port, ip, subject ...
 
-2) Now you can deploy many containers using docker-compose (adjust the number of containers to your needs):
+3) Add your attachments to `./email-attachments`
+
+4) Now you can deploy many containers using docker-compose (adjust the number of containers to your needs):
 ```bash
 docker-compose up -d
 ```
 
-3) To count the total number of mails you can install and use mail smtp-sink:
+5) To count the total number of mails you can install and use mail smtp-sink:
 ```bash
-sudo smtp-sink -u root -c 127.0.0.1:2555 255
+sudo smtp-sink -u root -c 127.0.0.1:2555 2555
 ```
 
 ## About 💁📙
