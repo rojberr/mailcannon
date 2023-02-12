@@ -66,6 +66,10 @@ By default Mailcannon uses environmental variables from `.env` file:
   when a bottleneck is discovered. THis is difficult to discover in a linear fashion. (number of threads/containers
   / linear ramp-up period, duration)
 - Include visualisation.
+- 
+## Supporting this repo
+
+![Star this repo](img/star_repo.gif)
 
 ## Author 👷
 
