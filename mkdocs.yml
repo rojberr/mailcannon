@@ -28,3 +28,17 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+copyright: >
+  Copyright &copy; 2023 - 2024 Rojberr - All rights reserved.
+  <a href="#_consent">Change cookie settings</a>
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >
+      This website uses cookies to ensure you get the best experience on our website.
+    actions:
+      - accept
+      - manage
+  generator: false
