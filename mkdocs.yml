@@ -1,4 +1,30 @@
-site_name: Mailcannon Docs
+site_name: Mailcannon
+site_author: rojberr
+site_url: https://rojberr.github.io/mailcannon/
+site_description: Mailcannon is a simple, fast and easy SMTP load tool for benchmarking.
+
+repo_url: https://github.com/rojberr/mailcannon
+edit_uri: edit/master/docs/
+
+plugins:
+  - search
+  - social
 
 theme:
   name: material
+  language: en
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
